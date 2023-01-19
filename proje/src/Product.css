@@ -1,0 +1,58 @@
+.section
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    padding: 16px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item 
+{
+    width:100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    padding: 16px;
+    background-color:#fafafa;
+    border:1px solid #eee;
+    border-radius: 4px;
+
+}
+
+.item img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    object-fit: cover;  
+    border-radius: 4px;  
+}
+
+.item h1
+{
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #444;
+}
+
+.item button
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 8px;
+    background-color: #66f;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0;
+    margin-top: 8px;
+    border: none;
+    
+}
+

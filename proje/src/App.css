@@ -1,0 +1,38 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+.Products
+{
+  width: 90vw;
+  margin: 10px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fir, 250px);
+  gap: 10px;
+}
+
+.wholecart
+{
+  display: flex;
+}
+
+.emptycart
+{
+  margin-top: 50px;
+  padding: 0.5rem;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 600px)
+{
+  .Products
+  {
+    width:100%;
+    grid-template-columns: (1,400px);
+  }
+}
